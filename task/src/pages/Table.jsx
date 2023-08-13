@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Table as BootstrapTable, Pagination } from "react-bootstrap";
+import { Pagination } from "react-bootstrap";
 import Select from "react-select";
 import Form from "./Form";
 import { toast } from "react-toastify";
@@ -14,7 +14,6 @@ const Table = () => {
   const [currItem, setCurrItem] = useState({});
 
   const [selectedItems, setSelectedItems] = useState([]);
-  const [array, setArray] = useState({});
 
   const [disabled, setDisabled] = useState(true);
 

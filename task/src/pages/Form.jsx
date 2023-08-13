@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Form } from 'react-bootstrap';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 const CustomForm = ({ show, handleClose, item}) => {
   const [formData, setFormData] = useState({
