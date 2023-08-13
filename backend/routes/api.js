@@ -135,7 +135,7 @@ router.post('/send-email', async (req, res) => {
 
   const mailOptions = {
     from: 'toshapatel179@gmail.com',
-    to: 'tk.patel.official@gmail.com',
+    to: 'info@redpositive.in',
     subject: 'Form CSV Data',
     text: 'P.F.A. CSV Data attached',
     attachments: [
